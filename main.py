@@ -191,6 +191,7 @@ def inject_custom_css():
 def main():
     st.set_page_config(
         page_title="Obscura Studio",
+        page_icon="📸",
         layout="wide",
         initial_sidebar_state="expanded",
     )
