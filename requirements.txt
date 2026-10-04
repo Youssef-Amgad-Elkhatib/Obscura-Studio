@@ -1,0 +1,6 @@
+streamlit
+opencv-contrib-python
+numpy
+Pillow
+streamlit-cropper
+ultralytics
