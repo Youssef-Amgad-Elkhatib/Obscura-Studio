@@ -312,6 +312,7 @@ def main():
                 for i, emoji_path in enumerate(emojis):
                     with emoji_cols[i % 3]:
                         emoji_preview = Image.open(emoji_path).convert("RGBA")
+                        emoji_preview = emoji_preview.resize((150, 150))
                         st.image(emoji_preview, use_container_width=True)
 
                         if st.button(
