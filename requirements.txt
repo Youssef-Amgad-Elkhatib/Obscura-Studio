@@ -1,5 +1,5 @@
 streamlit
-opencv-contrib-python
+opencv-contrib-python-headless
 numpy
 Pillow
 streamlit-cropper
